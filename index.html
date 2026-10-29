@@ -327,7 +327,7 @@
     <input type="number" id="fPax" min="1" max="15" value="1">
 
     <label>Party members, pricing &amp; meal</label>
-    <p class="hint" style="margin-top:-2px;">Adult S$45 · Child (12 &amp; below) Free</p>
+    <p class="hint" style="margin-top:-2px;">Adult S$50 · Child (12 &amp; below) Free</p>
     <div id="guestWrap"></div>
 
     <div class="total-box" id="totalBox">
@@ -415,9 +415,9 @@ let CONFIG = {
 };
 let selectedPayment = "paynow";
 let editingRecord = null; // holds the original record while a guest edits their RSVP
-const PRICES = { adult: 45, child: 0 };
+const PRICES = { adult: 50, child: 0 };
 const PRICE_OPTIONS = [
-  { value: 'adult', label: 'Adult — S$45' },
+  { value: 'adult', label: 'Adult — S$50' },
   { value: 'child', label: 'Child (12 & below) — Free' }
 ];
 const MEAL_OPTIONS = [
